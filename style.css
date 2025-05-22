@@ -1,0 +1,20 @@
+[data-testid="stSidebarContent"]  .stMarkdown {
+    font-size: 0.5rem; /* Further reduced size */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+/* Optional: Adjust header size if needed */
+[data-testid="stSidebarContent"] .stSidebar > div:first-child {
+    font-size: 0.65rem; /* Adjusted header size */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+/* Target Streamlit specific title elements in sidebar */
+[data-testid="stSidebarContent"] .stSidebar [data-testid="stVerticalBlock"] > div > div:first-child {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+} 
